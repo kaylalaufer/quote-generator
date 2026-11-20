@@ -82,6 +82,19 @@ button:active {
     font-size: 1.5rem;
 }
 
+/* Loader */
+.loader {
+    width: 60px;
+    height: 60px;
+    border: 8px solid #e0e0e0;
+    border-top-color: #333;
+    border-radius: 50%;
+    animation: spin 1.0s linear infinite;
+  }
+  @keyframes spin {
+    to { transform: rotate(360deg); }
+  }
+
 /* Media Query: Tablet or Smaller */
 @media screen and (max-width: 1000px) {
     .quote-container {
